@@ -4,3 +4,4 @@ build
 *.txt
 .vscode
 oldCodes
+main.cpp
