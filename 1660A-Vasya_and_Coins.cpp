@@ -22,23 +22,14 @@ int main()
         int a, b;
         cin >> a >> b;
 
-        if (a == 0 && b == 0)
+        if (a == 0)
             cout << 1 << nl;
-
-        else if (a != 0 && b == 0)
-            cout << a + 1 << nl;
-
-        else if (a == 0 && b != 0)
-            cout << 1 << nl;
-
-        // a!=0 b!=0
         else
         {
             // 2=2 2=4
             // 1,2,3,4,5,6,7
             // 4=4 4=8
             // 1 2 3 4 5 6 7 8 9 10 11 12 13
-
             cout << (b * 2 + a) + 1 << nl;
         }
     }
